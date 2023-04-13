@@ -17,3 +17,9 @@
     display: flex;
     flex-direction: column;
 }
+
+header{
+    height: 90px;
+    background-color: cornflowerblue;
+}
+
