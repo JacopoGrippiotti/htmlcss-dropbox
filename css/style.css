@@ -43,6 +43,7 @@ nav{
 .jumbotron{
     height: 550px;
     background-color: aquamarine;
+    padding-top: 80px;
 }
 
 .jumbotron-container{
@@ -52,3 +53,23 @@ nav{
     height: 100%;
 }
 
+.jumbotron-description{
+    width: 30%;
+    height: 65%;
+    background-color: darkkhaki;
+}
+
+.jumbotron-image{
+    width:70% ;
+    background-color: coral;
+}
+
+h1{
+    width: 100%;
+    height: 35%;
+    background-color: blueviolet;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
