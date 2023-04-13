@@ -140,3 +140,9 @@ div.plan-title{
     height: 600px;
     background-color: gold;
 }
+
+.dropbox-business-item{
+    width: calc((100% / 3) - 20px;
+    background-color: fuchsia;
+    text-align: center;
+}
