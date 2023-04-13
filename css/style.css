@@ -33,7 +33,21 @@ header{
 .nav-right div{
     width: 25%;
     border: 1px solid black;
+    text-align: center;
 } 
+
 nav{
+    height: 100%;
+}
+
+.jumbotron{
+    height: 550px;
+    background-color: aquamarine;
+}
+
+.jumbotron-container{
+    width: 70%;
+    margin: 0 auto;
+    background-color: brown;
     height: 100%;
 }
