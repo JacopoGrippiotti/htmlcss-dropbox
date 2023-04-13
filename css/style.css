@@ -98,3 +98,11 @@ h1{
     height: 100%;
 }*/
 
+.business-plans{
+    height: 80%;
+}
+.business-plans div{
+    width: calc((100% / 3) - 40px) ;
+    background-color: deeppink;
+    height: 100%;
+}
