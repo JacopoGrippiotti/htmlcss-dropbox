@@ -142,7 +142,13 @@ div.plan-title{
 }
 
 .dropbox-business-item{
-    width: calc((100% / 3) - 20px;
-    background-color: fuchsia;
+    width:calc((100% / 3) - 30px);
     text-align: center;
+    background-color: aqua;    
+}
+
+div.dropbox-business-item:nth-child(1),
+div.dropbox-business-item:nth-child(2),
+div.dropbox-business-item:nth-child(3){
+    margin-bottom: 30px;
 }
