@@ -23,3 +23,17 @@ header{
     background-color: cornflowerblue;
 }
 
+.nav-right,
+.nav-left{
+    width: 30%;
+    background-color: cyan;
+}
+
+.nav-left div,
+.nav-right div{
+    width: 25%;
+    border: 1px solid black;
+} 
+nav{
+    height: 100%;
+}
