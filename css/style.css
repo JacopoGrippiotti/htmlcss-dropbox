@@ -88,3 +88,12 @@ h1{
 .bg-green{
     background-color: greenyellow;
 }
+
+.business-section{
+    height: 600px;
+}
+.business-section div{
+    width: calc((100% / 3) - 50px);
+    background-color: deeppink;
+    height: 100%;
+}
