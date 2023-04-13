@@ -105,4 +105,12 @@ h1{
     width: calc((100% / 3) - 40px) ;
     background-color: deeppink;
     height: 100%;
+    border: 1px solid black;
+    
+}
+
+div.plan-title{
+    width: 100%;
+    height: 5%;
+    text-align: center;
 }
