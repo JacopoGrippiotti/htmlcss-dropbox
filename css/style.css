@@ -3,3 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
