@@ -90,10 +90,11 @@ h1{
 }
 
 .business-section{
-    height: 600px;
+    height: 800px;
 }
-.business-section div{
+/*.business-section div{
     width: calc((100% / 3) - 50px);
     background-color: deeppink;
     height: 100%;
-}
+}*/
+
