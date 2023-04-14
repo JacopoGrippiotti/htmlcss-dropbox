@@ -18,6 +18,12 @@
     flex-direction: column;
 }
 
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
 header{
     height: 90px;
     background-color: cornflowerblue;
@@ -180,4 +186,19 @@ div.dropbox-business-item:nth-child(3){
     width: calc(100% / 2);
     background-color: chartreuse;
     border: 1px solid black;
+}
+
+.free-try{
+    height: 250px;
+    background-color: rgb(13, 171, 171);
+}
+
+.free-try-item{
+    height: 100%;
+}
+.free-try-item div{
+    width: calc((100% / 2) - 40px);
+    background-color: blue;
+    text-align: center;
+    height: 50%;
 }
