@@ -220,3 +220,10 @@ div.dropbox-business-item:nth-child(3){
     border-left: 0;
     border-right: 0;
 }
+
+footer{
+    background-color: black;
+    color: white;
+    height: 600px;
+    margin-top: 130px;
+}
