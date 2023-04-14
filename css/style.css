@@ -240,3 +240,8 @@ section.contacts h3{
 section.contacts ul>li{
     margin-bottom: 25px;
 }
+
+.footer-container{
+    width: 65%;
+    margin: 0 auto;
+}
