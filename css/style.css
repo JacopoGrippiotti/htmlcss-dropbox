@@ -202,3 +202,21 @@ div.dropbox-business-item:nth-child(3){
     text-align: center;
     height: 50%;
 }
+
+.frequent-questions{
+    height: 400px;
+    background-color: cadetblue;
+    margin-top: 130px;
+}
+
+.accordion-container{
+    height: 100%;
+}
+
+.accordion-container div{
+    width: 100%;
+    background-color: yellow;
+    border: 1px solid black;
+    border-left: 0;
+    border-right: 0;
+}
