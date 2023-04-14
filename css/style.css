@@ -213,7 +213,7 @@ div.dropbox-business-item:nth-child(3){
     height: 100%;
 }
 
-.accordion-container div{
+.accordion-container>div{
     width: 100%;
     background-color: yellow;
     border: 1px solid black;
