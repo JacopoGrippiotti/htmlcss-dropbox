@@ -163,3 +163,21 @@ div.dropbox-business-item:nth-child(3){
     height: 90%;
     margin-top: 38px;
 }
+
+.boxes{
+    height: 500px;
+    background-color: beige;
+    margin-top: 130px;
+}
+
+.boxes>div{
+    width: calc(100% / 3);
+    background-color: darkviolet;
+    border: 1px solid black;
+}
+
+.boxes>div div{
+    width: calc(100% / 2);
+    background-color: chartreuse;
+    border: 1px solid black;
+}
