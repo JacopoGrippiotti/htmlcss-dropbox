@@ -97,15 +97,16 @@ nav{
 }
 
 .arrow-container{
-    padding-bottom: 20px;
+    margin: 15px 0;
 }
 
 .jumbotron-description{
     width: 30%;
 }
 
-.jumbotron-image{
+.jumbotron-image-container{
     width:70% ;
+    padding-right: 30px;
 }
 
 
@@ -114,7 +115,7 @@ nav{
 }
 
 .jumbo-image{
-    width: 80%;
+    width: 100%;
 }
 
 .container{
