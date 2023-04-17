@@ -80,33 +80,45 @@
             </div>
         </section>
         
-        <section class="container business-section bg-green column space-between">
-            <h3>Trova il piano business che fa per te</h3>
+        <section class="container business-section column space-between">
+            <h2>Trova il piano business che fa per te</h2>
             
             <div class="flex">
-                <input type="radio" id=monthly name="billing">
-                
-                <label for="monthly">
-                    Fatturazione mensile
-                </label>  
-                
-                <input type="radio" id=yearly name="billing">
-                
-                <label for="yearly">
-                    Fatturazione annuale
-                </label>  
+                <div>
+                    <input type="radio" id=monthly name="billing">
+                    <label for="monthly">
+                        Fatturazione mensile
+                    </label>
+                </div>
+                <div class="yearly-container">
+                    <input type="radio" id=yearly name="billing">
+                    <label for="yearly">
+                        Fatturazione annuale
+                    </label> 
+                </div> 
+                 
             </div>
             
             <div class="business-plans flex space-between">
-                <div class="column space-between">
-                    <div class="plan-title"><!--icon-->Singolo</div>
+                <div class="business-column">
+                    <div class="plan-title">
+                        <i class="fa-solid fa-user"></i>Singolo
+                    </div>
+                    <div class="plan-description column">
+                        <div>
+                            <h2>Professional</h2>
+                            <div class="price-container">12&euro;</div>
+                            <div class="month-container">/mese</div>
+                        </div>
+                        
+                    </div>
                 </div>
                 
-                <div class="column">
+                <div class="business-column">
                     <div class="plan-title"><!--icon-->Team</div>
                 </div>
                 
-                <div class="column">
+                <div class="business-column">
                     <div class="plan-title"><!--icon-->Azienda</div>
                 </div>
             </div>

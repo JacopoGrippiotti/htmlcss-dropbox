@@ -119,6 +119,10 @@ nav{
     position:absolute
 }
 
+div.yearly-container{
+    margin-left: 10px;
+}
+
 .container{
     width: 50%;
     margin: 0 auto;
@@ -133,23 +137,41 @@ nav{
     margin-top: 130px;
 }
 
+.business-section>h2{
+    font-size: 35px;
+    font-family:  'Open Sans', sans-serif;
+}
 .business-plans{
     height: 60%;
 }
-.business-plans div.column{
+
+.plan-description>h2{
+    font-size: 25px;
+    font-family:  'Open Sans', sans-serif;
+}
+
+.business-plans div.business-column{
     width: calc((100% / 3) - 40px) ;
     background-color: deeppink;
     height: 100%;
-    border: 1px solid black;
-    
+}
+.plan-title{
+    padding: 8px 0px;
+}
+
+i{
+    margin-right: 3px;
+    font-size: 1em;
 }
 
 div.plan-title{
-    width: 100%;
     text-align: center;
     border: 1px solid black;
 }
 
+.plan-item{
+    padding: 0px 7px;
+}
 .enterprise{
     width: 100%;
     height: 25%;
