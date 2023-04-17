@@ -21,6 +21,10 @@
     row-gap: 20px;
 }
 
+.medium-gap{
+    row-gap: 35px;
+}
+
 .big-gap{
     row-gap: 55px;
 }
@@ -49,7 +53,14 @@
 .blue-button{
     background-color:#0061ff;
     color: white;
+    padding: 7px 7px;
+}
+
+.button{
     padding: 5px 7px;
+    border: 1px solid black;
+    width: 42%;
+    text-align: center;
 }
 
 .jumbotron-description span.blue-button{
@@ -136,7 +147,7 @@ div.yearly-container{
 }
 
 .container{
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -214,7 +225,7 @@ div.plan-title{
 
 .plan-item{
     padding: 0px 30px;
-    font-size: 0.72rem;
+    font-size: 0.74rem;
     font-weight: 500;
 }
 
@@ -265,22 +276,33 @@ div.plan-item>span>hr{
 
 .team-container h3{
     margin-top: 10px;
+    font-size: 12px;
 }
 
 .find-partner{
     margin-top: 130px;
-    height: 400px;
-    background-color: rgb(239, 181, 35);
+}
+
+#partner-image{
+    width: 100%;
 }
 
 .find-partner-image{
-    width: 60%;
-    background-color: rgb(196, 255, 222);
+    width: 55%;
 }
 
 .find-partner-description{
     width: 40%;
-    background-color: crimson;
+    padding-right: 30px;
+    font-family:'Open Sans', sans-serif;
+}
+
+.find-partner-description>p{
+    font-size: 1rem;
+}
+
+.find-partner-description>h2{
+    margin-top: 50px;
 }
 
 .dropbox-business{
