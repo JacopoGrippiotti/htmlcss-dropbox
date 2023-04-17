@@ -346,8 +346,12 @@ div.dropbox-business-item:nth-child(3){
 
 .dropbox-link{
     margin-top: 130px;
-    height: 200px;
-    background-color: azure;
+}
+
+.dropbox-link>h2{
+    font-size: 35px;
+    font-family:'Open Sans', sans-serif;
+    padding-right: 400px;
 }
 
 .business-item-container{
@@ -360,22 +364,29 @@ div.dropbox-business-item:nth-child(3){
     padding-right: 30px;
 }
 
-.boxes{
-    height: 563px;
-    background-color: beige;
+section.boxes{
     margin-top: 130px;
 }
 
-.boxes>div{
-    width: calc(100% / 3);
-    background-color: darkviolet;
+section.boxes div.boxes-item{
+    width: 50%;
+    height: 50%;
     border: 1px solid black;
 }
 
-.boxes>div div{
-    width: calc(100% / 2);
-    background-color: chartreuse;
+.boxes-container{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
     border: 1px solid black;
+}
+
+.boxes-image{
+    width: 50%;
+    margin: auto;
+}
+
+.margin-auto{
+    margin: auto;
 }
 
 .free-try{
@@ -445,4 +456,36 @@ div.language{
 
 .divisor{
    margin-top: 70px;
+}
+
+.bg-green-light{
+    background-color: #a2d39b;
+}
+
+.bg-bordeaux{
+    background-color:#61082b ;
+}
+
+.bg-light-blue{
+    background-color: #0093ce;
+}
+
+.bg-light-red{
+    background-color:#ff1c1c;
+}
+
+.bg-dark-red{
+    background-color: #d5001f ;
+}
+
+.bg-sun-blue{
+    background-color:#b4d0e7 ;
+}
+
+.bg-dark-blue{
+    background-color:#0d2481;
+}
+
+.bg-yellow{
+    background-color:#ffd830;
 }
