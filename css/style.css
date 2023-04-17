@@ -17,6 +17,14 @@
     justify-content: flex-end;
 }
 
+.gap{
+    row-gap: 20px;
+}
+
+.big-gap{
+    row-gap: 20px;
+}
+
 .space-between{
     justify-content: space-between;
 }
@@ -137,21 +145,28 @@ div.yearly-container{
 }
 
 .business-section{
-    height: 950px;
     margin-top: 130px;
+    font-family:'Open Sans', sans-serif;
 }
 
 .business-section>h2{
     font-size: 35px;
-    font-family:  'Open Sans', sans-serif;
-}
-.business-plans{
-    height: 60%;
+    font-family:'Open Sans', sans-serif;
+    margin-bottom: 40px;
 }
 
-.plan-description h2{
+.radio-container{
+    margin-bottom: 40px;
+}
+
+.business-plans{
+    margin-bottom: 35px;
+}
+
+.plan-item>h2{
+    margin-bottom: 10px;
+    font-family:'Open Sans', sans-serif;
     font-size: 20px;
-    font-family:  'Open Sans', sans-serif;
 }
 
 div.price-container{
@@ -160,9 +175,24 @@ div.price-container{
 
 .business-plans div.business-column{
     width: calc((100% / 3) - 40px) ;
-    background-color: deeppink;
-    height: 100%;
 }
+
+
+
+div.business-column{
+    border: 1px solid black;
+    padding-bottom: 35px;
+}
+
+
+.price-container{
+    font-weight: bold;
+}
+
+.month-container{
+    margin-top: 7px;
+}
+
 .plan-title{
     padding: 8px 0px;
 }
@@ -179,10 +209,11 @@ div.plan-title{
 
 .plan-item{
     padding: 0px 25px;
+    font-size: 0.70rem;
 }
 
 div.plan-item ul>li{
-    margin-top: 8px;
+    margin-bottom: 15px;
 }
 
 div.plan-item ul{
@@ -190,7 +221,7 @@ div.plan-item ul{
 }
 
 div.plan-item>span{
-    margin-top: 8px;
+    margin-top: 15px;
 }
 
 div.plan-item>span>hr{
