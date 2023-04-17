@@ -91,7 +91,7 @@
                     </label>
                 </div>
                 <div class="yearly-container">
-                    <input type="radio" id=yearly name="billing">
+                    <input type="radio" id="yearly" name="billing">
                     <label for="yearly">
                         Fatturazione annuale
                     </label> 
@@ -100,26 +100,54 @@
             </div>
             
             <div class="business-plans flex space-between">
-                <div class="business-column">
+                
+                <div class="business-column column flex-start">
+                    
                     <div class="plan-title">
-                        <i class="fa-solid fa-user"></i>Singolo
+                        <i class="fa-solid fa-user"></i>
+                        Singolo
                     </div>
-                    <div class="plan-description column">
-                        <div>
-                            <h2>Professional</h2>
-                            <div class="price-container">12&euro;</div>
-                            <div class="month-container">/mese</div>
-                        </div>
+                    
+                    <div class="plan-item">
+                        <h2>Professional</h2>
+                        <div class="price-container">12&euro;</div>
+                        <div class="month-container">/mese</div>
+                    </div>
                         
+                    <div class="plan-item">
+                        <ul>
+                            <li><span><!--icon--></span>1 utente</li>
+                            <li><span><!--icon--></span>5 tb di spazio di archiviazione</li>
+                            <li><span><!--icon--></span>Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                        </ul>
+                    </div>
+
+                    <div class="plan-item column">
+                        <span class="blue-button">Prova gratis per 30 giorni</span>
+                        <span>oppure <a href="">acquista ora</a></span>
+                        <span><hr></span>
+                    </div>
+
+                    <h3 class="plan-item">Punti Salienti del piano</h3>
+
+                    <div class="plan-item">
+                        <ul>
+                            <li>Invia file fino a 100 GB con Dropbox Transfert</li>
+                            <li>Cartelle offline su dispositivi mobili</li>
+                        </ul>
+                    </div>
+
+                </div>
+                        
+                <div class="business-column column space-between">
+                    <div class="plan-title">
+                        <i class="fa-solid fa-users"></i>
+                        Team
                     </div>
                 </div>
                 
-                <div class="business-column">
-                    <div class="plan-title"><!--icon-->Team</div>
-                </div>
-                
-                <div class="business-column">
-                    <div class="plan-title"><!--icon-->Azienda</div>
+                <div class="business-column column space-between">
+                    <div class="plan-title">Azienda</div>
                 </div>
             </div>
 
