@@ -157,6 +157,11 @@ div.yearly-container{
 
 .radio-container{
     margin-bottom: 40px;
+    font-size: 0.80rem;
+}
+
+.radio-container input{
+    vertical-align: middle;
 }
 
 .business-plans{
@@ -208,8 +213,9 @@ div.plan-title{
 }
 
 .plan-item{
-    padding: 0px 25px;
-    font-size: 0.70rem;
+    padding: 0px 30px;
+    font-size: 0.72rem;
+    font-weight: 500;
 }
 
 div.plan-item ul>li{
