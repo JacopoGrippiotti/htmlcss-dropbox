@@ -22,7 +22,7 @@
 }
 
 .big-gap{
-    row-gap: 20px;
+    row-gap: 55px;
 }
 
 .space-between{
@@ -209,7 +209,7 @@ i{
 
 div.plan-title{
     text-align: center;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .plan-item{
@@ -218,8 +218,16 @@ div.plan-title{
     font-weight: 500;
 }
 
+h3.plan-item{
+    font-weight: bold;
+}
+
 div.plan-item ul>li{
-    margin-bottom: 15px;
+    margin-bottom: 18px;
+}
+
+div.plan-item ul>span{
+    margin-right: 5px;
 }
 
 div.plan-item ul{
@@ -227,7 +235,7 @@ div.plan-item ul{
 }
 
 div.plan-item>span{
-    margin-top: 15px;
+    margin:20px 0px;
 }
 
 div.plan-item>span>hr{
@@ -240,10 +248,23 @@ div.plan-item>span>hr{
 }
 
 .enterprise{
-    width: 100%;
-    height: 25%;
-    background-color: darkorchid;
     border: 1px solid black;
+}
+
+.team-container{
+    padding:30px;
+}
+
+.team-container-left{
+    width: 70%;
+}
+
+.team-container-right{
+    width: 30%;
+}
+
+.team-container h3{
+    margin-top: 10px;
 }
 
 .find-partner{
@@ -365,4 +386,8 @@ section.contacts ul>li{
 .footer-container{
     width: 65%;
     margin: 0 auto;
+}
+
+.text-blue{
+    color: #0061ff;
 }
