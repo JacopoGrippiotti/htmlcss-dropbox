@@ -396,12 +396,7 @@ section.boxes div.boxes-item{
 }
 
 .frequent-questions{
-    height: 300px;
     margin-top: 130px;
-}
-
-.accordion-container{
-    height: 100%;
 }
 
 .accordion-container>div{
@@ -409,6 +404,7 @@ section.boxes div.boxes-item{
     border: 1px solid black;
     border-left: 0;
     border-right: 0;
+    padding: 40px;
 }
 
 footer{
@@ -511,4 +507,8 @@ div.language{
 
 .big-container>p{
     margin-bottom: 50px;
+}
+
+.chevron-icon{
+    font-size: 0.70rem;
 }
