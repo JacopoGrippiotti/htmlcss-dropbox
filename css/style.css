@@ -151,10 +151,6 @@ div.yearly-container{
     margin: 0 auto;
 }
 
-.bg-green{
-    background-color: greenyellow;
-}
-
 .business-section{
     margin-top: 130px;
     font-family:'Open Sans', sans-serif;
@@ -386,6 +382,11 @@ section.boxes div.boxes-item{
     filter: invert(1);
 }
 
+.center-box-image{
+    width: 50%;
+    margin-bottom: 40px;
+}
+
 .margin-auto{
     margin: auto;
 }
@@ -496,4 +497,18 @@ div.language{
 
 .free-try{
     padding: 100px 0px;
+}
+
+.big-container{
+    width: 80%;
+    margin: 45px auto;
+}
+
+.big-container>hr{
+    width: 20%;
+    margin-bottom: 50px;
+}
+
+.big-container>p{
+    margin-bottom: 50px;
 }
